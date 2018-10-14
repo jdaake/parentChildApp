@@ -1,0 +1,8 @@
+<h3>Child Component</h3>
+
+<label>Child Component: </label>
+<input type="text" #childInput (keyup)="onChange(childInput.value)" />
+
+<p>
+  Value of parent component is: {{ parentData }}
+</p>
